@@ -19,7 +19,7 @@ const App = () => {
        <br />
        {error && <div style={{color: 'red'}}>Invalid email</div>}
        
-       <button type='submit'>Submit</button>
+       <button type='submit' disabled = {error}>Submit</button>
 
     </form>
   )
